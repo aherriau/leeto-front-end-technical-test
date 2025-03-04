@@ -15,10 +15,18 @@ export const PageGiftCardList = () => {
   const [searchParams, setSearchParams] = useSearchParams()
 
   const tabQueryParam = searchParams.get('tab')
-  if (!tabQueryParam)
-    setSearchParams(`?${new URLSearchParams({ tab: 'active' })}`)
+  const isTabInvalid =
+    !tabQueryParam || !['active', 'archived'].includes(tabQueryParam)
 
-  const [activeTab, setActiveTab] = useState(tabQueryParam || 'active')
+  useEffect(() => {
+    if (isTabInvalid)
+      setSearchParams(`?${new URLSearchParams({ tab: 'active' })}`)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  const [activeTab, setActiveTab] = useState(
+    isTabInvalid ? 'active' : tabQueryParam
+  )
 
   const { data: activeGiftCards = [], isPending: isActiveGiftCardsPending } =
     useGetActiveGiftCards()
