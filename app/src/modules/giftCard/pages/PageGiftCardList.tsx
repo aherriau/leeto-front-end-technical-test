@@ -45,14 +45,8 @@ export const PageGiftCardList = () => {
       })
 
     setSearchParams(`?${new URLSearchParams({ tab: activeTab })}`)
-  }, [
-    activeGiftCards,
-    activeTab,
-    archivedGiftCards,
-    isActiveGiftCardsPending,
-    isArchivedGiftCardsPending,
-    setSearchParams,
-  ])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeTab, isActiveGiftCardsPending, isArchivedGiftCardsPending])
 
   const tabs: { name: string; label: string }[] = LIST_TABS.map((tab) => ({
     name: tab,

@@ -28,6 +28,14 @@
       },
       "consumed_state": "{{consumedAmount}} € dépensés / {{allowedAmount}} €",
       "consumed_progress": "{{consumedPercentage}} %"
+    },
+    "details": {
+      "back_link": "Retour vers les cartes cadeaux",
+      "loading": "Chargement en cours...",
+      "not_found": "Cette carte cadeau n'existe pas.",
+      "date_range": "{{startDate}} - {{endDate}}",
+      "remainingAmount": "{{value}} €",
+      "available": "disponibles"
     }
   }
 }
