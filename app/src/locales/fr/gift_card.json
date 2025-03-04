@@ -1,0 +1,33 @@
+{
+  "gift_card": {
+    "list": {
+      "title": "Cartes cadeaux",
+      "loading": "Chargement en cours...",
+      "empty_state": "Aucune carte cadeau à afficher.",
+      "tabs": {
+        "active": "Actives ({{count}})",
+        "archived": "Clôturées ({{count}})"
+      },
+      "closed_in": {
+        "days": "Se clôture dans 1 jour",
+        "days_other": "Se clôture dans {{count}} jours",
+        "weeks": "Se clôture dans 1 semaine",
+        "weeks_other": "Se clôture dans {{count}} semaines",
+        "months": "Se clôture dans {{count}} mois",
+        "years": "Se clôture dans 1 an",
+        "years_other": "Se clôture dans {{count}} ans"
+      },
+      "closed_at": {
+        "days": "Clôturée il y a 1 jour",
+        "days_other": "Clôturée il y a {{count}} jours",
+        "weeks": "Clôturée il y a 1 semaine",
+        "weeks_other": "Clôturée il y a {{count}} semaines",
+        "months": "Clôturée il y a {{count}} mois",
+        "years": "Clôturée il y a 1 an",
+        "years_other": "Clôturée il y a {{count}} ans"
+      },
+      "consumed_state": "{{consumedAmount}} € dépensés / {{allowedAmount}} €",
+      "consumed_progress": "{{consumedPercentage}} %"
+    }
+  }
+}
