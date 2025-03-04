@@ -35,7 +35,23 @@
       "not_found": "Cette carte cadeau n'existe pas.",
       "date_range": "{{startDate}} - {{endDate}}",
       "remainingAmount": "{{value}} €",
-      "available": "disponibles"
+      "available": "disponibles",
+      "description": "Description de la la carte-cadeau",
+      "beneficiaries": {
+        "list": {
+          "title": "Quel(s) ayant(s)-droit validés bénéficient de cette cagnotte ?",
+          "own_name": "Vous-même",
+          "one_name": {
+            "own": "{{name}} êtes éligible.",
+            "other": "{{name}} est éligible."
+          },
+          "several_names": "{{namesList}} et {{lastName}} sont éligibles."
+        },
+        "consumption": {
+          "title": "Suivi de consommation",
+          "consumed_state": "{{name}} · {{consumedAmount}} € / {{allowedAmount}} €"
+        }
+      }
     }
   }
 }

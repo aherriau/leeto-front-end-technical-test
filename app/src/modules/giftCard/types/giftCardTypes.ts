@@ -1,8 +1,9 @@
 export type GiftCardState = 'active' | 'archived'
 
-type BeneficiaryType = 'user' | 'companion' | 'child'
+export type BeneficiaryEmoji = '🙋‍♂️' | '💙' | '👶'
+export type BeneficiaryType = 'user' | 'companion' | 'child'
 
-interface Beneficiary {
+export interface Beneficiary {
   id: number
   type: BeneficiaryType
   firstName: string

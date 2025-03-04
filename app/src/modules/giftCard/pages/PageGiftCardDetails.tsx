@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next'
 import { GiftCardDetailsBackLink } from '../components/GiftCardDetailsBackLink'
 import { GiftCardDetailsInformation } from '../components/GiftCardDetailsInformation'
 import { useGetGiftCard } from '../queries/useGiftCardDetailsQueries'
+import { GiftCardDetailsBeneficiaries } from '../components/GiftCardDetailsBeneficiaries'
 
 export const PageGiftCardDetails = () => {
   const { t } = useTranslation()
@@ -38,9 +39,16 @@ export const PageGiftCardDetails = () => {
         state={giftCard.state}
       />
 
-      <div className="my-6">Description</div>
+      <div className="my-6 p-4 rounded-lg bg-slate-50">
+        <p className="text-sm font-semibold text-slate-800 mb-2">
+          {t('gift_card.details.description')}
+        </p>
+        <p className="text-base font-normal text-slate-800">
+          {giftCard.description}
+        </p>
+      </div>
 
-      <div>Beneficiaries</div>
+      <GiftCardDetailsBeneficiaries beneficiaries={giftCard.beneficiaries} />
     </div>
   )
 }
