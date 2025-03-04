@@ -16,8 +16,8 @@ export interface GiftCard {
   id: number
   name: string
   description: string
-  openingDate: Date
-  closingDate: Date
+  openingDate: string
+  closingDate: string
   state: GiftCardState
   allowedAmount: number
   consumedAmount: number
