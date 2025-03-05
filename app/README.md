@@ -16,9 +16,9 @@ Lancer `yarn install` pour installer les dépendances puis `yarn dev` pour lance
 
 ### Page qui affiche le détail d'une carte cadeau
 
-<img width="1440" alt="Capture d’écran 2025-03-05 à 10 07 39" src="https://github.com/user-attachments/assets/c3fae337-2570-42c0-9f0f-543d3d4b201d" />
-<img width="261" alt="Capture d’écran 2025-03-05 à 10 08 05" src="https://github.com/user-attachments/assets/5ad77d7e-2509-4155-ba75-e36a5d08d20d" />
-<img width="261" alt="Capture d’écran 2025-03-05 à 10 08 38" src="https://github.com/user-attachments/assets/fd8e532f-f3ef-423a-982d-b9a9fc9f03ad" />
+<img width="1440" alt="Capture d’écran 2025-03-05 à 12 50 57" src="https://github.com/user-attachments/assets/f365ca30-143f-4b28-9b7f-5d8530beb24e" />
+<img width="261" alt="Capture d’écran 2025-03-05 à 12 51 24" src="https://github.com/user-attachments/assets/7009a30d-ae52-4f24-9428-97735feed3d0" />
+<img width="261" alt="Capture d’écran 2025-03-05 à 12 51 49" src="https://github.com/user-attachments/assets/2c9bdd85-c97a-4247-801d-cb225e09a043" />
 
 
 ## Idées d'améliorations
