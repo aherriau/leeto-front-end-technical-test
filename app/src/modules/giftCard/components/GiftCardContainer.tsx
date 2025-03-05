@@ -24,6 +24,7 @@ export const GiftCardContainer = ({
 
   return (
     <div
+      data-testid="giftcard-container"
       key={id}
       className="p-6 border border-slate-300 rounded-xl cursor-pointer hover:border-slate-400"
       onClick={() => navigate(`/gift_cards/${id}`)}
