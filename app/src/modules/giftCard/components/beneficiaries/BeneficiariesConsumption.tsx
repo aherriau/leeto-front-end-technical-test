@@ -24,7 +24,9 @@ export const BeneficiariesConsumption = ({
 
         return (
           <div key={id} className="flex items-center gap-4">
-            <Avatar emoji={getBeneficiaryTypeEmoji(type)} />
+            <div>
+              <Avatar emoji={getBeneficiaryTypeEmoji(type)} />
+            </div>
             <div className="flex flex-col w-full">
               <p className="mb-1 text-xs font-normal text-slate-600">
                 {t(
