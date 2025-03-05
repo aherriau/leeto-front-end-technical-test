@@ -1,8 +1,10 @@
 # Leeto - Test technique développeur front-end - App front
 
-## Démarrer l'application
-
-Lancer `yarn install` pour installer les dépendances puis `yarn dev` pour lancer l'application.
+## Commandes
+- Installer les dépendances : `yarn install`
+- Lancer l'application : `yarn dev`
+- Lancer la suite de tests : `yarn test`
+- Lancer le Storybook : `yarn storybook`
 
 ## Rendu visuel du projet
 
@@ -26,3 +28,4 @@ Lancer `yarn install` pour installer les dépendances puis `yarn dev` pour lance
 - Mieux gérer les erreurs retournées par les appels API comme une carte cadeau qui n'existe pas en base par exemple
 - Mutualiser plus de composants pour pouvoir les ré-utiliser comme les contenants des cartes cadeaux et des bénéficiaires (`CardContainer`) par exemple mais aussi le lien de retour (`BackLink`), etc.
 - Choisir une librairie d'icônes qui contient tous ceux présents sur les maquettes Figma pour éviter de devoir les ajouter au projet (je n'ai pas réussi à trouver les 2 lignes superposées sur MDI par exemple)
+- Ajouter plus de tests et de stories
