@@ -1,4 +1,5 @@
 import { render } from '@testing-library/react'
+import { expect, describe, it } from 'vitest'
 
 import { Avatar } from './Avatar'
 
